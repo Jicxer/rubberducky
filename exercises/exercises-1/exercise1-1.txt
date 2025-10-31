@@ -1,0 +1,9 @@
+REM Write and deploy a payload for the target operating system of your choice which will:
+REM Open the target operating system's terminal
+REM Run commands to show a listing of files and directories
+REM Pause for 5 seconds
+REM Close the terminal window
+WINDOWS r
+STRING powershell -Command "dir"; pause
+DELAY 5000
+ENTER
