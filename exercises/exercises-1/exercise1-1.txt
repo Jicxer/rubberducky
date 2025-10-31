@@ -4,6 +4,7 @@ REM Run commands to show a listing of files and directories
 REM Pause for 5 seconds
 REM Close the terminal window
 WINDOWS r
-STRING powershell -Command "dir"; pause
+STRING powershell "dir ; pause"
+ENTER
 DELAY 5000
 ENTER
