@@ -1,6 +1,6 @@
 REM Title: Exercise1-2
 REM Author: Jicxer
-REM Target: Host
+REM Target: Windows11
 REM Description:Exercise1-2
 REM Modify the payload from exercise1-1 to minimize the terminal window after the 5 second pause instead of exiting.
 DELAY 200

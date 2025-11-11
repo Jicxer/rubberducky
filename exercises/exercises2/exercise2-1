@@ -1,0 +1,25 @@
+REM Title: Exercise2-1
+REM Author: Jicxer
+REM Target: Windows11
+REM Description:Exercise2-1
+REM Write and deploy a payload which will:
+REM Open a plaintext document on the OS
+REM Type the iconic "Hello World" text
+REM Blink the LED green on and off for 5 seconds
+$CD = 5
+DELAY 1000
+WINDOWS r
+STRING notepad
+DELAY 1000
+ENTER
+DELAY 1000
+STRING Hello, World!
+WHILE ($CD > 0)
+    LED_G
+    DELAY 1000
+    LED_OFF
+    $CD = ($CD - 1)
+END_WHILE
+DELAY 500
+ENTER
+STRING End of exercise.

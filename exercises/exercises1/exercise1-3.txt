@@ -1,6 +1,6 @@
 REM Title: Exercise1-3
 REM Author: Jicxer
-REM Target: Host
+REM Target: Windows11
 REM Description:Exercise1-3
 REM Modify the payload from exercise1-1 to copy the contents of the terminal window after 5 second pause then open a new plaintext document and pase the clipboard.
 WINDOWS r
