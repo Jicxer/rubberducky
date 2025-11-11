@@ -1,0 +1,2 @@
+REM Modify the payload written in exercise 1-1 to minimize the terminal winodw after
+REM The 5 second pause rather than closing it.
