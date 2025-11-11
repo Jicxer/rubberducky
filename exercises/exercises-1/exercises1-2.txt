@@ -1,2 +1,17 @@
-REM Modify the payload written in exercise 1-1 to minimize the terminal winodw after
-REM The 5 second pause rather than closing it.
+REM Title: Exercise1-2
+REM Author: Jicxer
+REM Target: Host
+REM Description:Exercise1-2
+REM Modify the payload from exercise1-1 to minimize the terminal window after the 5 second pause instead of exiting.
+DELAY 200
+WINDOWS r
+DELAY 1000
+STRING powershell "dir ; pause"
+ENTER
+DELAY 5000
+ALT SPACE
+DOWNARROW
+DOWNARROW
+DOWNARROW
+DOWNARROW
+ENTER

@@ -1,9 +1,15 @@
+REM Title: Exercise1-1
+REM Author: Jicxer
+REM Target: Host
+REM Description:Exercise1-1
 REM Write and deploy a payload for the target operating system of your choice which will:
 REM Open the target operating system's terminal
 REM Run commands to show a listing of files and directories
 REM Pause for 5 seconds
 REM Close the terminal window
+DELAY 200
 WINDOWS r
+DELAY 1000
 STRING powershell "dir ; pause"
 ENTER
 DELAY 5000
