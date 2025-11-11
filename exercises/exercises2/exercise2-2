@@ -1,0 +1,19 @@
+REM Title: Exercise2-2
+REM Author: Jicxer
+REM Target: Windows11
+REM Description:Exercise2-2
+REM Modify payload from Exercise2-1 to pause between the text "Hello," and "World!" until the button is pressed.
+DELAY 1000
+WINDOWS r
+STRING notepad
+DELAY 1000
+ENTER
+DELAY 1000
+BUTTON_DEF
+    STRING Hello,
+    BUTTON_DEF
+        STRING World!
+        ENTER
+        STRING End of exercise2-2
+    END_BUTTON
+END_BUTTON
