@@ -1,0 +1,20 @@
+REM Title: Exercise1-3
+REM Author: Jicxer
+REM Target: Host
+REM Description:Exercise1-3
+REM Modify the payload from exercise1-1 to copy the contents of the terminal window after 5 second pause then open a new plaintext document and pase the clipboard.
+WINDOWS r
+DELAY 1000
+STRING powershell -NoExit -Command "dir; dir | clip"
+ENTER
+DELAY 5000
+STRING exit
+ENTER
+WINDOWS r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+CTRL v
+DELAY 2000
+ALT F4
